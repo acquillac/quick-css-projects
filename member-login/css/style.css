@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+/* Color Palette */
+/* https://www.color-hex.com/color-palette/114410 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+  background: #286573;
+}
+
+h1,h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: lighter;
+}
+
+input,label,button{
+  display: block;
+}
+
+.container{
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container{
+  flex: 1;
+  background: #dcdcdc;
+  margin: 2rem 0;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #333;
+}
+
+.login-container input{
+  background: #efefef;
+  color: #2c2c2c;
+  padding: 1rem 1rem;
+  width: 30vw;
+  height: 8vh;
+  margin: 1rem 0;
+  border: hidden;
+  border-bottom: 1px solid #90b4bc;
+  border-radius: 5px 5px 0 0;
+  transition: transform 0.2s;
+}
+
+.login-container input:focus{
+  outline: none;
+  box-shadow: 1px 1px 1px #333;
+  transform: translateY(-5%);
+}
+
+/* Social Media Links */
+.login-container ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 1rem 0.3rem;
+}
+
+.login-container ul li a i{
+  color: #6a969f;
+  transition: transform 0.2s;
+}
+
+.login-container ul li a i:hover{
+  color: 	#90b4bc;
+  text-shadow: 1px 1px 1px #333;
+  transform: translateY(-5%);
+}
+
+/* Login Button */
+.login-container button{
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 25px;
+  border: hidden;
+  background: #90b4bc;
+  font-size: 1rem;
+  color: #2c2c2c;
+  transition: transform 0.2s;
+}
+
+.login-container button:hover{
+  cursor: pointer;
+  background: #6a969f;
+  color:#efefef;
+  box-shadow: 2px 2px 2px #333;
+  transform: translateY(-5%);
+}
+
+/* Footer links */
+footer a{
+  color: #90b4bc;
+  margin: 0 1rem;
+}
+
+footer a:hover{
+  color: #efefef;
+}
+
+/* Media Query */
+@media only screen and (max-width: 778px){
+  .login-container{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 556px){
+  .login-container{
+    width: 90%;
+  }
+  .login-container input{
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  footer a{
+    margin: 0;
+  }
+}
