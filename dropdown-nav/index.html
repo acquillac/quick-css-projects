@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/0963ad511f.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Dropdown</title>
+</head>
+<body>
+
+  <header>
+    <nav class="nav-container"> 
+      <ul class="links-container">
+        <h2><span><i class="far fa-bookmark"></i> SiteName</span></h2>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">About</a></li>
+          <div class="dropdown">
+            <button class="dropdown-btn">Dropdown <i class="fas fa-chevron-down"></i></button>   
+              <div class="dropdown-menu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </div>
+          </div>
+        </ul>
+        <!-- Search bar -->
+        <div class="search-container">
+          <input type="text" placeholder="Search">
+        <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+      </div>
+    </nav>
+  </header>
+
+
+</body>
+</html>

@@ -1,4 +1,8 @@
 # css-quick-projects
 
 ## Member-Login
-login page with hover animations and media queries.
+simple member login
+
+## Dropdown-nav
+click dropdown nave work in progress
+
