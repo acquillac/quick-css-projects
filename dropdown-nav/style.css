@@ -95,10 +95,12 @@ input:focus{ outline: none;}
   position: absolute;
   transition: opacity 0.5s ease;
   left:0;
+  pointer-events: none;
 }
 
 .dropdown > button:focus + .dropdown-menu {
   opacity: 1;
+  pointer-events: all;
 }
 
 .dropdown-menu li, .dropdown-menu li a{
