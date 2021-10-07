@@ -106,3 +106,39 @@ input:focus{ outline: none;}
 .dropdown-menu li, .dropdown-menu li a{
   display: block;
 }
+
+
+/* media queries */
+@media screen and (max-width: 1300px){
+  span{
+    display: none;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .nav-container{
+    flex-direction: column;
+    
+  }
+}
+
+@media screen and (max-width: 794px){
+  .nav-container{
+    height: 100vh;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+  }
+
+  .links-container{
+    flex-direction: column;
+  }
+
+  li, li a, button{
+    margin: 0.8rem 0;
+  }
+
+  .search-container{
+    margin-top: 8rem;
+  }
+}
