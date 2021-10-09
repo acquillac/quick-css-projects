@@ -6,3 +6,5 @@ simple member login
 ## Dropdown-nav
 click dropdown nav work in progress
 
+## Quick Hero
+simple home page
