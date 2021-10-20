@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container{
+  height: 400px;
+  width: 50px;
+  margin: 0 5px;
+  border-radius: 10px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.image-container:hover{
+  height: 700px;
+  width: 700px;
+}
+
+#image-1{
+  background: url(./img/image1.jpg)no-repeat
+  center center/cover;
+}
+#image-2{
+  background: url(./img/image2.jpg)no-repeat
+  center center/cover;
+}
+#image-3{
+  background: url(./img/image3.jpg)no-repeat
+  center center/cover;
+}
+#image-4{
+  background: url(./img/image4.jpg)no-repeat
+  center center/cover;
+}

@@ -8,3 +8,6 @@ click dropdown nav work in progress
 
 ## Quick Hero
 simple home page
+
+## Hover Images
+hover image slide show
